@@ -2,7 +2,25 @@
 ==============================
 # BAlign
 
-Code for paper "Unsupervised Multilingual Alignment using Wasserstein Barycenter".
+Code for paper ["Unsupervised Multilingual Alignment using Wasserstein Barycenter"](https://www.ijcai.org/Proceedings/2020/512). 
+
+Please cite this work as:
+
+@inproceedings{ijcai2020-512,
+  title     = {Unsupervised Multilingual Alignment using Wasserstein Barycenter},
+  author    = {Lian, Xin and Jain, Kshitij and Truszkowski, Jakub and Poupart, Pascal and Yu, Yaoliang},
+  booktitle = {Proceedings of the Twenty-Ninth International Joint Conference on
+               Artificial Intelligence, {IJCAI-20}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},             
+  editor    = {Christian Bessiere}	
+  pages     = {3702--3708},
+  year      = {2020},
+  month     = {7},
+  note      = {Main track}
+  doi       = {10.24963/ijcai.2020/512},
+  url       = {https://doi.org/10.24963/ijcai.2020/512},
+}
+
 
 Disclaimer: This codebase borrows some embbedding and evaluation tools from David Alvarez-Melis's [otalign](https://github.com/dmelis/otalign), Mikel Artetxe's [vecmap](https://github.com/artetxem/vecmap) repo, and Python Optimal Transport [POT](https://github.com/rflamary/POT) from Remi Flamary and colleagues.
 
