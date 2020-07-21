@@ -70,6 +70,7 @@ Example command to use the package: the following command run against the XLING 
 python3 -u scripts/main_gw_mli.py --task xling --entreg 10 --maxiter 20 --maxs 5000 --tree test-tree --lang_space fr --results_path out8/xling-test-unif-dist20000 --option barycenter --initlang random --dim 2times
 ```
 
+```
 ## Command line options:
 | Option name | parameter |
 | data_dir | location word embedding and evaluation datasets are put in |
@@ -84,3 +85,4 @@ python3 -u scripts/main_gw_mli.py --task xling --entreg 10 --maxiter 20 --maxs 5
 | task | dataset to evaluate against |
 | lang_space | language space to map all languages into |
 | normalize_dists | method to normalize all word embeddings |
+```
